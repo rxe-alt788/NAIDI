@@ -1,1 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>NAID Verifier</title>
+  <style>
+    body { font-family: sans-serif; padding: 2em; }
+    input, textarea { width: 100%; margin: 1em 0; padding: 0.5em; }
+  </style>
+</head>
+<body>
+  <h1>NAID: Article Verifier</h1>
+  <p>Paste your article content below to check for a known hash:</p>
+  
+  <textarea id="article" rows="8" placeholder="Paste article title + body here..."></textarea>
+  <button onclick="checkHash()">Verify</button>
+  
+  <div id="result"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
 
